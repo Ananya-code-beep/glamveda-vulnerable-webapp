@@ -140,4 +140,14 @@ dist
 # Vite files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# PHP
+vendor/
+*.log
+
+# GlamVeda-specific — do not commit real secrets or test webshells
+.env.local
+uploads/*.php
+sql/*.sql.bak
+
 .vite/
